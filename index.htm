@@ -22,6 +22,30 @@
             <button onclick="showCurrentTime()">Show Current Time</button>
             <p id="message"></p>
         </section>
+        
+        
+        <section id="calculator">
+            <h1>Enhanced Calculator</h1>
+            <p>Enter two numbers and select an operation:</p>
+        
+            <label for="num1">Number 1:</label>
+            <input type="number" id="num1" placeholder="Enter first number"><br><br>
+        
+            <label for="num2">Number 2:</label>
+            <input type="number" id="num2" placeholder="Enter second number"><br><br>
+        
+            <!-- Buttons for different operations -->
+            <button onclick="addNumbers()">Add</button>
+            <button onclick="subtractNumbers()">Subtract</button>
+            <button onclick="multiplyNumbers()">Multiply</button>
+            <button onclick="divideNumbers()">Divide</button>
+        
+            <h2>Result: <span id="result">0</span></h2>
+            <h3>Remainder: <span id="remainder">0</span></h3>
+            <h4>Quotient: <span id="quotient">0</span></h4>
+        </section>
+    
+    
     </main>
 
     <!-- Footer Section -->
